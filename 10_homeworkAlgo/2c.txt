@@ -1,0 +1,5 @@
+A greedy algorithm decides the "best choice" at depending on the variables present at the moment.
+This could lead to a global optimum (tho not guaranteed).
+However in this case, since we start from the top of the triangle; there is no "best choice".
+We must try different combinations of paths, because we can never tell wether the correct decision was made
+since we can't see beyond our current position in the triangle.
